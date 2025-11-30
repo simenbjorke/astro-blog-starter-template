@@ -7,15 +7,26 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>Stene Bjørke</h1>
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    
+    <style>
+        main {
+            text-align: center;
+            padding: 40px 0;
+        }
+        h1 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    </head>
+  <body>
+    <Header />
+    <main>
+        <h1>Stene Bjørke</h1>
+        <p></p>
+    </main>
+    <Footer />
+  </body>
 </html>
